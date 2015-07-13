@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:background="#FF25C45D"
+        android:src="@drawable/apu" />
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/code"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:lineSpacingExtra="0dp"
+        android:text="Sree Narayan Chakraborty
+                      Department of Computer Science 
+                      and Telecommunication Engineering.
+                      ASH1201002M ,7th Batch.
+                      Noakhali Science and Technology
+                      University.
+                      narayanchakraborty1993@gmail.com"
+        android:textColor="#FF415DE1"
+        android:textSize="16sp" />
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">7Heroes</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="_">"জন্মদিন           :৮ মে ১৯৪৩                             \n                          জন্মস্থান           :গ্রাম-সালামতপুর,থানা-মধুখালী,\n                                           জেলা-ফরিদপুর            \n                          কর্মস্থল            :পূর্ব পাকিস্তানের রাইফেলস\n                                     (ই,পি আর)                                 \n                          পদবি:          :ল্যান্সনায়ক    \n                          মুক্তিযুদ্ধের  সেক্টর    :১নং           \n                          মৃত্যু             :২০ এপ্রিল  ১৯৭১ \n                          বীরত্ব            :\n                          রাঙামাটি ও মহালছড়ির সংযোগপথ  কুড়িঘাট \n                          এলাকায় চিংড়ি খালের দুইপাশে নির্মিত প্রতিরক্ষা\n                          ব্যুহ অক্ষুণ্ন রাখতে গিয়ে হানাদার বাহিনীর বুলেটে শহীদ\n                          হন  ।”\n                         সমাধিস্থল        :চিংড়িখালী নদীরতীর,কালুরঘাট\n                                         চট্টগ্রাম  ।  \n                                     "</string>
+    <string name="todo">TODO</string>
+
+</resources>

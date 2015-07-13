@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="#FF25C45D"
+        android:gravity="center"
+        android:text="বীরশ্রেষ্ঠ মোস্তফা কামাল"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold|normal" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="186dp"
+        android:background="#FFF7241A"
+        android:src="@drawable/mostofakamal" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=
+                       "জন্মদিন        :১৬ ডিসেম্বর  ১৯৪৭                             
+                            জন্মস্থান        :          
+                            গ্রাম-পশ্চিম হাজীপুর,থানা-দৌলত খান,
+                            জেলা-ভোলা   ।                    
+                            কর্মস্থল        :সেনাবাহিনী                            
+                            পদবি:       :সিপাহী        
+                            মুক্তিযুদ্ধের সেক্টর :২নং              
+                            মৃত্যু          :১৮ এপ্রিল ১৯৭১ 
+                            বীরত্ব         :           
+                        “ব্রাহ্মণবাড়িয়ার আখাউড়া উপজেলার দক্ষিণে 
+                             গঙ্গা সাগরের উত্তরে দরুইন গ্রামে পাকিস্তানের
+                             সাথে বীরত্বের সাথে যুদ্ধ করে শহীদ হন ।”     
+                             সমাধিস্থল      :             
+                             ব্রাহ্মণবাড়িয়ার আখাউড়ার দরুইন গ্রামে      
+                                        "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF25C45D"
+        android:src="@drawable/mk" />
+
+</LinearLayout>
+</ScrollView>

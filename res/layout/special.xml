@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF1E77E7"
+    android:padding="2dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="সাত বীরশ্রেষ্ঠের নামে গ্রাম ও ইউনিয়ন"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ff1b00"
+            android:textColorHint="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold|normal"
+            tools:ignore="HardcodedText" />
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            style="@style/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" >
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/text"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:gravity="top|center"
+                android:text=" পূর্বনাম "
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/text"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:gravity="top|center"
+                android:text=" বর্তমান নাম "
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/text"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:gravity="top|center"
+                android:text="  অবস্থান "
+                tools:ignore="HardcodedText" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            style="@style/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView5"
+                style="@style/text"
+                android:layout_width="102dp"
+                android:layout_height="90dp"
+                android:gravity="top|center"
+                android:text="পশ্চিম হাজীপুর"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView6"
+                style="@style/text"
+                android:layout_width="102dp"
+                android:layout_height="90dp"
+                android:gravity="top|center"
+                android:text="মোস্তফা কামাল নগর"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView7"
+                style="@style/text"
+                android:layout_width="102dp"
+                android:layout_height="90dp"
+                android:gravity="top|center"
+                android:text="আলী নগর ভোলা"
+                tools:ignore="HardcodedText" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            style="@style/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView8"
+                style="@style/text"
+                android:layout_width="102dp"
+                android:layout_height="90dp"
+                android:gravity="top|center"
+                android:text="সালামতপুর"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView9"
+                style="@style/text"
+                android:layout_width="102dp"
+                android:layout_height="90dp"
+                android:gravity="top|center"
+                android:text="রউফনগর"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView10"
+                style="@style/text"
+                android:layout_width="102dp"
+                android:layout_height="90dp"
+                android:gravity="top|center"
+                android:text="মধুখালী,ফরিদপুর"
+                tools:ignore="HardcodedText" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView11"
+                style="@style/text"
+                android:layout_width="102dp"
+                android:layout_height="90dp"
+                android:gravity="top|center"
+                android:text="রামনগর"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView12"
+                style="@style/text"
+                android:layout_width="102dp"
+                android:layout_height="90dp"
+                android:gravity="top|center"
+                android:text="মতিউরনগর"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView13"
+                style="@style/text"
+                android:layout_width="102dp"
+                android:layout_height="90dp"
+                android:gravity="top|center"
+                android:text="রায়পুর,নরসিংদী"
+                tools:ignore="HardcodedText" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView14"
+                style="@style/text"
+                android:layout_width="102dp"
+                android:layout_height="90dp"
+                android:gravity="top|center"
+                android:text="মহেশখালী"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView15"
+                style="@style/text"
+                android:layout_width="102dp"
+                android:layout_height="90dp"
+                android:gravity="top|center"
+                android:text="নূর মোহাম্মদ নগর "
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView16"
+                style="@style/text"
+                android:layout_width="102dp"
+                android:layout_height="90dp"
+                android:layout_gravity="left"
+                android:gravity="top|center"
+                android:text="সদর,নড়াইল"
+                tools:ignore="HardcodedText" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView17"
+                style="@style/text"
+                android:layout_width="102dp"
+                android:layout_height="90dp"
+                android:gravity="top|center"
+                android:text="ঘরোদা"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView18"
+                style="@style/text"
+                android:layout_width="102dp"
+                android:layout_height="90dp"
+                android:gravity="top|center"
+                android:text="হামিদনগর"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView19"
+                style="@style/text"
+                android:layout_width="102dp"
+                android:layout_height="90dp"
+                android:gravity="top|center"
+                android:text="মহেশপুর,ঝিনাইদহ"
+                tools:ignore="HardcodedText" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView21"
+                style="@style/text"
+                android:layout_width="102dp"
+                android:layout_height="80dp"
+                android:gravity="top|center"
+                android:text="বাঘচাপড়া"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView22"
+                style="@style/text"
+                android:layout_width="102dp"
+                android:layout_height="80dp"
+                android:gravity="top|center"
+                android:text="রুহল আমিন নগর"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView23"
+                style="@style/text"
+                android:layout_width="102dp"
+                android:layout_height="80dp"
+                android:gravity="top|center"
+                android:text="সোনাইমুড়ী,নোয়াখালী"
+                tools:ignore="HardcodedText" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView20"
+                style="@style/text"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:gravity="center|fill"
+                android:text="বীরশ্রেষ্ঠ ক্যাপ্টেন মহিউদ্দিন জাহাঙ্গীরের 
+                              গ্রামের নাম তার দাদার নামে রহিমগঞ্জ
+                             হওয়ায় তার ইউনিয়ন আগরপুর বদলে 
+                             মহিউদ্দিন  জাহাঙ্গীর ইউনিয়ন করার সিদধান্ত 
+                             নেওয়া হয়েছে    "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                tools:ignore="HardcodedText" />
+
+        </TableRow>
+    </LinearLayout>
+
+</ScrollView>

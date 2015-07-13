@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:background="#FF25C45D"
+            android:gravity="center"
+            android:text="বীরশ্রেষ্ঠ মহিউদ্দিন জাহাঙ্গীর"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold|normal" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+            android:background="#FFF7241A"
+            android:src="@drawable/jahangir" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=
+                      "জন্মদিন      :৭ মার্চ ১৯৪৯                             
+                          জন্মস্থান      :         
+                          গ্রাম-রহিমগঞ্জ,থানা-বাবুগঞ্জ,   
+                          জেলা-বরিশাল     । 
+                          কমিশন লাভ: ১৯৬৮ সালে ।                    
+                          কর্মস্থল      :সেনাবাহিনী                                                 
+                          পদবি:     :ক্যাপ্টেন    
+                          মুক্তিযুদ্ধের সেক্টর:৭ নং   
+                      (সাব-সেক্টর কমান্ডার হিসেবে)                   
+                          মৃত্যু        :১৪ ডিসেম্বর ১৯৭১ 
+                          বীরত্ব       :           
+                      “রাজশাহীর চাঁপাইনবাবগঞ্জ দখলে তাঁকে
+                          একটি মুক্তিযোদ্ধা দলের নেতৃত্ব দেয়া হয়
+                          মুক্তিযোদ্ধাসহ মহউদ্দিন নবাবগঞ্জ শহরের 
+                          পশ্চিমে বারঘড়িয়া নামক স্থানে অবষ্থান
+                          নেন ।১৪ ডিসেম্বর প্রতুষ্যে নৌকা মহানন্দা
+                          নদী পার হন এবং অতর্কিত আক্রমণ 
+                          চালিয়ে শত্রুর কয়েকটি ট্রেঞ্চ দখল করে 
+                          নেন ।দু’পক্ষের তুমুল সংঘর্ষের এ পর্যায়ে 
+                          একটি গুলি বিদ্ধ হয়ে শহীদ হন ।            
+                          সমাধিস্থল     :             
+                          গৌড়ের ছোট সোনা মসজিদ প্রাঙ্গন 
+                          শিবগঞ্জ,চাঁপাইনববাবগঞ্জ ।      
+                           । "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF25C45D"
+            android:src="@drawable/mj" />
+
+    </LinearLayout>
+    
+
+</ScrollView>

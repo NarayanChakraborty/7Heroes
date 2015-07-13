@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:background="#FF25C45D"
+            android:gravity="center"
+            android:text="বীরশ্রেষ্ঠ মুন্সী আব্দুর রউফ"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold|normal" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="192dp"
+            android:background="#FFF7241A"
+            android:src="@drawable/monsiabdurrouf" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=
+                     "জন্মদিন      :৮ মে ১৯৪৩                             
+                          জন্মস্থান      :         
+                          গ্রাম-সালামতপুর,থানা-মধুখালী,    
+                          জেলা-ফরিদপুর     ।                    
+                          কর্মস্থল      :পূর্ব পাকিস্তানের রাইফেলস
+                       (ই,পি আর)                                                
+                          পদবি:     :ল্যান্সনায়ক    
+                          মুক্তিযুদ্ধের সেক্টর:১নং                      
+                          মৃত্যু        :২০ এপ্রিল  ১৯৭১ 
+                          বীরত্ব       :           
+                          রাঙামাটি ও মহালছড়ির সংযোগপথ কুড়িঘাট 
+                          এলাকায় চিংড়ি খালের দুইপাশে নির্মিত প্রতিরক্ষা
+                          ব্যুহ অক্ষুণ্ন রাখতে গিয়ে হানাদার বাহিনীর 
+                          বুলেটে শহীদ হন  ।”             
+                          সমাধিস্থল     :             
+                          চিংড়িখালী নদীরতীর,কালুরঘাট চট্টগ্রাম  ।  
+                                     "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF25C45D"
+            android:src="@drawable/ar" />
+
+    </LinearLayout>
+
+</ScrollView>

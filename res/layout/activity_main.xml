@@ -1,0 +1,209 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:clickable="false"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/ruhulamin"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/moturrahman"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/jahangir"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/mostofakamal"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_alignRight="@+id/imageView4"
+        android:layout_below="@+id/imageView4"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/monsiabdurrouf"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/imageView5"
+        android:layout_below="@+id/imageView5"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/nurmohammad"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/imageView6"
+        android:layout_below="@+id/imageView6"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/hamidurrahman"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:background="#ff00f578"
+        android:text="বীরশ্রেষ্ঠ রুহুল আমিন"
+        android:textColor="#FFFE1B1B"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_marginTop="2dp"
+        android:background="#ff00f578"
+        android:text="বীরশ্রেষ্ঠ মতিউর রহমান"
+        android:textColor="#FFFE1B1B"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_marginTop="2dp"
+        android:background="#ff00f578"
+        android:text="বীরশ্রেষ্ঠ মহিউদ্দিন জাহাঙ্গীর"
+        android:textColor="#FFFE1B1B"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/imageView4"
+        android:background="#ff00f578"
+        android:text="বীরশ্রেষ্ঠ মোস্তফা কামাল"
+        android:textColor="#FFFE1B1B"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView7"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/imageView7"
+        android:background="#ff00f578"
+        android:text="বীরশ্রেষ্ঠ হামিদুর রহমান"
+        android:textColor="#FFFE1B1B"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/button7"
+        android:layout_alignRight="@+id/button7"
+        android:layout_alignTop="@+id/imageView6"
+        android:layout_marginTop="2dp"
+        android:background="#ff00f578"
+        android:text="বীরশ্রেষ্ঠ নূর মোহাম্মদ শেখ"
+        android:textColor="#FFFE1B1B"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignRight="@+id/button4"
+        android:layout_below="@+id/imageView4"
+        android:layout_marginTop="2dp"
+        android:background="#ff00f578"
+        android:text="বীরশ্রেষ্ঠ মুন্সী আব্দুর রউফ"
+        android:textColor="#FFFE1B1B"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/imageView7"
+        android:layout_below="@+id/imageView7"
+        android:src="@drawable/ic_launcher" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/button7"
+        android:layout_alignTop="@+id/imageView8"
+        android:layout_marginTop="5dp"
+        android:background="#ff00f578"
+        android:text="স্মৃতি সংরক্ষন" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView8"
+        android:layout_below="@+id/imageView8"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFF7241A"
+        android:text="About Me"
+        android:textColor="#ff00f578"
+        android:textColorHint="#ff00f578" />
+
+</RelativeLayout>

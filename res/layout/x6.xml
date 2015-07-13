@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="#FF25C45D"
+            android:gravity="center"
+            android:text="বীরশ্রেষ্ঠ নূর মোহাম্মদ শেখ"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold|normal" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="198dp"
+            android:background="#FFF7241A"
+            android:src="@drawable/nurmohammad" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="জন্মদিন       :২৬ ফ্রেবুয়ারি  ১৯৩৬                             
+                          জন্মস্থান      :             
+                          গ্রাম-মহিশখালো,থানা-চন্ডিবরপুর       
+                          সদর,জেলা-নড়াইল ।                     
+                          কর্মস্থল      :              
+                          পূর্ব পাকিস্তানের রাইফেলস (ই,পি আর)                                 
+                          পদবি:     :ল্যান্সনায়ক          
+                          মুক্তিযুদ্ধের সেক্টর:৮নং                             
+                          মুত্যু       :৫ সেপ্টেম্বর ১৯৭১
+                          বীরত্ব      :             
+                      “যশোরের গোয়ালঘাটি গ্রামে টহলে নিয়োজিত
+                          থাকার সময় পাক বাহিনী কর্তৃক ত্রিমুখী 
+                          আক্রমণের মুখে সঙ্গীদের বাঁচাতে গিয়ে একাকী 
+                          পাকবাহীনির সাথে যুদ্ধ  করে শহীদ হন ।
+                          সমাধিস্থল    :              
+                          যশোরের শার্শা উপজেলায় গোয়ালিহাটি গ্রামে ।  
+                          
+                           "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.54"
+            android:background="#FF25C45D"
+            android:src="@drawable/nm" />
+
+    </LinearLayout>
+
+</ScrollView>
